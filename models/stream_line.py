@@ -1,8 +1,7 @@
-#from models.space_point import SpacePoint
-#from models.space import space
+from models.Space_point import Space_point
+from models.Space import space
 import numpy as np
-
-class StreamLine:
+class streamLine:
     def __init__(self, time, x1, x2):
-        self.v1 = np.sin(time) * x1
+        self.v1 = -np.sin(time) * x1
         self.v2 = np.exp(time) * x2
