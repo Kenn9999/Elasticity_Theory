@@ -1,5 +1,5 @@
-from models.Space_point import Space_point
-from models.Space import space
+from models.space_point import Space_point
+from models.space import space
 import numpy as np
 class streamLine:
     def __init__(self, time, x1, x2):
